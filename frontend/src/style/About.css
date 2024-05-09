@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+
+body{
+ font-family:'Montserrat,Alternates';
+}
+.about {
+  margin-top: 50px;
+}
+.curved-div {
+  position: relative;
+  /* background: #ff3c00; */
+  color: #FFF;
+  text-align: center;
+  overflow: hidden;
+}
+
+.curved-div svg {
+  display: block;
+}
+.curved-shape {
+  background-color:rgb(53, 52, 52);
+  border-radius: 50px;
+  padding: 150px;
+  margin: 20px auto;
+  width: 1000px;
+  height: 500px;
+  margin-top: 100px;
+  margin-right: 10%;
+
+
+}
+
+.card-body {
+  padding: 100px;
+  margin-top: 159px;
+  font-family: 'Montserrat Alternates';
+}
+
+@media (max-width: 768px) {
+  .header-content {
+    height: 80px;
+    margin-top: 80px;
+    margin-bottom: 140px;
+  }
+
+  .link {
+    margin-top: 90px;
+  }
+
+  .col-md-4 img {
+    margin-top: 500px;
+    width: 30%;
+    /* float: left;  */
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .card-text {
+    width: 350px;
+    height: auto;
+    margin-top: 0 !important;
+    margin-bottom: 50px;
+    display: relative;
+
+  }
+
+  .curved-shape {
+    width: 90%;
+    height: 500px;
+    margin-top: 200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .card-body {
+    float: left;
+    width: 100% !important;
+    font-size: 15px;
+    padding-bottom: 500px;
+    display: absolute;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+
+  }
+
+  .card-title {
+    margin-top: auto !important;
+  }
+
+  .curved-shape .card-body {
+
+    margin-top: 10px;
+  }
+
+}
+
+@media (max-width: 430px) {
+  .card-text {
+    width: 250px;
+  }
+}
+
+@media (max-width: 330px) {
+  .card-text {
+    width: 235px;
+  }
+
+  .card-body {
+    width: 80% !important;
+  }
+}
+.card-text {
+  font-family: 'Montserrat Alternates';
+font-weight: 450;
+color: rgb(251, 251, 251);
+
+}
+.card-body h5{
+  color: #FFF;
+  font-family: 'Montserrat Alternates';
+  font-weight: 900;
+}

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+
+:root {
+  --bgColor: #f1f1f1;
+  --mainColor: rgb(132, 61, 141);
+}
+
+nav .nav-link,
+.navbar-brand {
+  color:  rgba(249, 249, 249, 0.5);
+  font-family: 'Montserrat Alternates';
+}
+nav .nav-link {
+  font-weight:900;
+ 
+  font-size: larger;
+}
+nav .nav-link:hover,
+.navbar-brand:hover {
+  color:rgb(132, 61, 141);
+  transition: 0s;
+}
+
