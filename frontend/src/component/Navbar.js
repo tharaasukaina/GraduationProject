@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../image/logo2.png';
 import '../style/Nav.css';
-import About from './About';
+
 <img src={logo} alt="Bootstrap" width="100" />
 
 const Navbar = () => {

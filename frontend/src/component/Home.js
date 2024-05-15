@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { PieChart, Pie, Cell, Legend } from 'recharts';
 import '../style/Home.css';
 import HomeImg from "../image/HomeImg.jpg";
@@ -10,13 +10,13 @@ const CircularChart = () => {
     { name: 'Overdue           ', value: 30, color: '#dc3545', label: 'Overdue Payments' },
   ];
 
-  const chartStyle = {
-    margin: 'auto',
-    marginTop: '20px',
-    border: '1px solid #ccc',
-    borderRadius: '5px',
-    padding: '20px',
-  };
+  // const chartStyle = {
+  //   margin: 'auto',
+  //   marginTop: '20px',
+  //   border: '1px solid #ccc',
+  //   borderRadius: '5px',
+  //   padding: '20px',
+  // };
 
   const legendStyle = {
     textAlign: 'center',
