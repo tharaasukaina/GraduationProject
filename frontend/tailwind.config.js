@@ -1,10 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}",],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       colors: {
-        customPurple: '#520462', // Define your custom color
+        customPurple: '#520462',
       },
       fontFamily: {
         pacifico: ['Pacifico', 'cursive'],
@@ -12,5 +12,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
-
+};

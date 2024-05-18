@@ -1,5 +1,6 @@
 import React from "react";
 import image from '../image/logo1 (2).png';
+
   const Footer = () => {
     return(
       <footer className="px-4 bg-customPurple text-white font-pacifico pt-16 sm:max-w-xl md:max-w-full lg:max-w-screen md:px-24 lg:px-8 ml-0 mr-0 ">
