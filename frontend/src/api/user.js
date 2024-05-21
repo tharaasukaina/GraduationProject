@@ -1,6 +1,6 @@
-const axios = require("axios");
+import axios from 'axios';
 
- const youreExperince = async (emotion, text) => {
+export const youreExperince1 = async (emotion, text) => {
   try {
     const response = await axios.post("/api/v1/youreExperince", {
       emotion,
@@ -15,5 +15,3 @@ const axios = require("axios");
     throw new Error("Failed to submit feedback");
   }
 };
-
-module.exports = youreExperince;

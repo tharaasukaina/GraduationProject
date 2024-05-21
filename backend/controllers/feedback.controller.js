@@ -18,7 +18,7 @@ const sendEmail = async (dest, subject, text) => {
   console.log("Email sent: %s", info.messageId);
 };
 export const youreExperince = async (req, res) => {
-  const { emotion, text } = req.body;
+   const { emotion, text } = req.body;
   if (!emotion || !text) {
     return res.status(400).json({ message: "Emotion and text are required." });
   }
