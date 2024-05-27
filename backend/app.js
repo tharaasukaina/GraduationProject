@@ -1,15 +1,15 @@
-import express from 'express'
-import dotenv from "dotenv"
-import connectDB from './DB/connection.js';
 import cors from 'cors';
 dotenv.config({path:'./config/.env'})
 import * as indexRouter from './src/index.router.js'
 const app = express()
 const port = process.env.PORT
-connectDB();
-app.use(express.json())
+app.use(express.json()); // for parsing application/json
+app.use(express.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
 app.use(cors());
 
+import express from 'express'
+import dotenv from "dotenv"
+import connectDB from './DB/connection.js';
 const baseurl=process.env.BASEURL
 app.use(`${baseurl}`,indexRouter.feedbackRouter)
 
