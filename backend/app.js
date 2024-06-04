@@ -9,11 +9,9 @@ app.use(cors());
 
 import express from 'express'
 import dotenv from "dotenv"
-import connectDB from './DB/connection.js';
+
 const baseurl=process.env.BASEURL
 app.use(`${baseurl}`,indexRouter.feedbackRouter)
-
-
 
 app.use('*',(req,res)=>{
     res.status(404).json({message:"page not found"})

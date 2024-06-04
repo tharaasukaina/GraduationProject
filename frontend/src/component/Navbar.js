@@ -10,7 +10,7 @@ const Navbar = () => {
     <>
  <nav className="navbar ms-5 navbar-expand-lg bg-transparent">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand" >
             <img src={logo} alt="Bootstrap" width="100" />
           </Link>
           <Link className="nav-link" to="/Home">Home</Link>
