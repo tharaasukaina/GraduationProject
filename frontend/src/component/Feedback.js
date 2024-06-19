@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import '../style/Feedback.css';
 import { youreExperince1 } from '../api/user';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Feedback = () => {
   const [selectedEmotion, setSelectedEmotion] = useState('');
@@ -19,16 +21,18 @@ const Feedback = () => {
     console.log(selectedEmotion);
     try {
       await youreExperince1(selectedEmotion, feedbackText);
-      console.log("تم إرسال التجربة بنجاح");
+      toast.success("Thanks for your Feedback, its submitted successfully");
       setSelectedEmotion('');
       setFeedbackText('');
     } catch (error) {
-      console.error("خطأ في إرسال التجربة:", error);
+      toast.error("There was an error submitting your feedback");
+      console.error("there is an error:", error);
     }
   };
 
   return (
     <div className="content">
+      <ToastContainer />
       <div className="cont">
         <div className="head">
           <div className="heading"><h1>Your opinion matters to us</h1></div>

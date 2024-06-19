@@ -7,17 +7,18 @@
 
 nav .nav-link,
 .navbar-brand {
-  color:  rgba(249, 249, 249, 0.5);
+  color:  rgba(236, 233, 233, 0.5);
   font-family: 'Montserrat Alternates';
+
 }
 nav .nav-link {
   font-weight:900;
- 
+
   font-size: larger;
 }
 nav .nav-link:hover,
 .navbar-brand:hover {
   color:rgb(132, 61, 141);
-  transition: 0s;
+  transition: 1s;
 }
 

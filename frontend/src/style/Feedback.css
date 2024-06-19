@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Pacifico', cursive;
     user-select: none;
+}
+
+.toastify__toast {
+  font-family: 'Montserrat Alternates', sans-serif !important;
 }
 
 .content {
@@ -119,7 +125,7 @@
 
 
 .sub {
-    background: rgb(249, 203, 250);
+    /* background: rgb(249, 203, 250); */
     padding-top: 5px;
     transition: 0.5s linear;
     margin-left: 10px;
@@ -129,12 +135,11 @@
 .submission button {
     font-family: 'Montserrat Alternates';
     font-weight: 900;
-    color: rgb(255, 255, 255);
-    border: #c2c2c2;
-}
-
-.sub:hover {
-    background-color: #410245;;
-    /* border: 1px solid black; */
-    color: rgba(9, 9, 9, 0.951);
-}
+    background-color: rgb(132, 61, 141);
+    color: white;
+  }
+  
+  .sub:hover {
+    border: 1px solid rgb(255, 251, 251);
+    color: rgb(132, 61, 141);
+  }

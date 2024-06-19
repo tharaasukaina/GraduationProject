@@ -8,7 +8,7 @@ import '../style/Nav.css';
 const Navbar = () => {
   return (
     <>
- <nav className="navbar ms-5 navbar-expand-lg bg-transparent">
+ <nav className="navbar ms-5 navbar-expand-lg ">
         <div className="container-fluid">
           <Link className="navbar-brand" >
             <img src={logo} alt="Bootstrap" width="100" />

@@ -6,15 +6,17 @@ body{
 .about {
   margin-top: 50px;
 }
-.curved-div {
+.curved-shape {
   position: relative;
   /* background: #ff3c00; */
   color: #FFF;
   text-align: center;
   overflow: hidden;
 }
-
-.curved-div svg {
+.card-titlee{
+  background-color: navy;
+}
+.curved-shape svg {
   display: block;
 }
 .curved-shape {
@@ -55,7 +57,7 @@ body{
     margin-bottom: 10px;
   }
 
-  .card-text {
+  .card-textt {
     width: 350px;
     height: auto;
     margin-top: 0 !important;
@@ -83,8 +85,9 @@ body{
 
   }
 
-  .card-title {
+  .card-titlee {
     margin-top: auto !important;
+   
   }
 
   .curved-shape .card-body {
@@ -95,13 +98,13 @@ body{
 }
 
 @media (max-width: 430px) {
-  .card-text {
+  .card-textt {
     width: 250px;
   }
 }
 
 @media (max-width: 330px) {
-  .card-text {
+  .card-textt {
     width: 235px;
   }
 
@@ -109,14 +112,18 @@ body{
     width: 80% !important;
   }
 }
-.card-text {
+.card-textt {
   font-family: 'Montserrat Alternates';
 font-weight: 450;
 color: rgb(251, 251, 251);
+width: 400px;
 
 }
-.card-body h5{
+
+.cardTitle{
   color: #FFF;
   font-family: 'Montserrat Alternates';
   font-weight: 900;
+  margin-top: -70px;
+  margin-left: 90px;
 }

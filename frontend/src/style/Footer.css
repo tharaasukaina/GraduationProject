@@ -1,0 +1,10 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.bg-customPurple {
+  background-color: rgb(132, 61, 141);
+}
+
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}

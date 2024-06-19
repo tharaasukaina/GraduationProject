@@ -39,9 +39,10 @@ const Contact = () =>{
           <textarea id="formMessage" className="form-control form-control-lg" rows="7" placeholder="Message"></textarea>
         </div>
       
-        
+        <div className="submission">
         <div className="text-center">
-          <button type="submit" className="btn btn-primary" tabIndex="-1">Send</button>
+          <button type="submit" className="sub btn" tabIndex="-1">Send</button>
+        </div>
         </div>
     </form>
                 </div>

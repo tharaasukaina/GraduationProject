@@ -1,17 +1,17 @@
 /* Home css */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
 
-.header-content-item{
- margin-right: 350px;
-}
-.link{
+
+.link {
   margin-left: 200px;
-  
+
 }
+
 :root {
   --bgColor: #f1f1f1;
   --mainColor: rgb(132, 61, 141);
 }
+
 body {
   background-color: rgba(255, 255, 255, 0.5);
   font-family: 'Montserrat Alternates';
@@ -21,6 +21,7 @@ body {
   background-position: 0-90px;
   background-color: rgba(255, 255, 255, 0.9)
 }
+
 .header-content {
   height: 100px;
   margin-top: 120px;
@@ -28,12 +29,25 @@ body {
   margin-left: 200px;
   width: 135%;
   margin-bottom: 120px;
+  color: #f1f1f1;
 }
+.header-content-item h1{
+  font-family: 'Montserrat Alternates';
+  color: #f1f1f1;
+  margin-bottom: 50px;
 
+}
+.header-content-item p{
+  font-family: 'Montserrat Alternates';
+  color: #f1f1f1;
+ 
+
+}
 .col-md-4 img {
   margin-top: 150px;
   width: 100%;
 }
+
 .col-md-5 {
   flex: 0 0 auto;
   width: 41.66666667%;
@@ -41,14 +55,14 @@ body {
 }
 
 /* في ملف Home.css */
-.header-content {
+/* .header-content {
   position: relative;
-}
+} */
 
-.header-content-item {
+/* .header-content-item {
   display: flex;
   align-items: center;
-}
+} */
 
 .data-info p {
   position: absolute;
@@ -59,34 +73,219 @@ body {
   color: #fff;
   padding: 50px;
   border-radius: 5px;
-  font-family:Georgia, 'Times New Roman', Times, serif; 
-}
-.header-content-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 300px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.header-content-item img {
-  max-width:750px;
-  height: auto;
-  margin-left: 50px;
-}
 
-/* .col-md-6 {
-  padding: 200px;
+.link {
 
-} */
-
-.pie-chart-container{
-  margin-left: 300px;
+  text-decoration: none;
   margin-top: 100px;
+  color: white;
+  display: block;
+  cursor: pointer;
+  background-color: var(--mainColor);
+  width: fit-content;
+  text-align: center;
+  margin: 30px auto;
+  padding: 20px 20px;
+  border-radius: 40px;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  font-weight: 700;
+  font-family: Merriweather Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
-.rectangle {
-  width: 260px;
-  height: 600px;
-  background-color:rgb(53, 52, 52);
+
+
+/* new css */
+.about-boxes {
+
+  text-align: center;
+  margin-top: 100px;
+ 
 }
+
+.card img {
+  margin-top: 0px;
+}
+
+.card i {
+  font-size: 32px;
+  color: #fff;
+  width: 64px;
+  height: 64px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+  background-color: rgb(132, 61, 141);
+  border-radius: 10px;
+  text-align: center;
+  border: 4px solid #fff;
+  transition: 0.3s;
+  display: inline-block;
+  margin-top: -35px;
+}
+
+.card i:hover {
+  color: black;
+  cursor: pointer;
+}
+
+
+
+.row .card {
+  height: 47%;
+}
+
+.row h5 {
+  font-family: 'Montserrat Alternates';
+  margin-bottom: -100px;
+  text-align: center;
+  color: black;
+  background-color: rgb(132, 61, 141);
+  font-weight: 600;
+
+}
+
+.card {
+  /* position: absolute; */
+  margin-top: 0;
+  text-align: center;
+  width: 100%;
+
+}
+
+span {
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: rgb(255, 255, 255) !important;
+  font-family: 'Montserrat Alternates';
+  display: inline-block;
+ 
+  margin-bottom: 1px;
+}
+
+.card-text {
+ background-color: rgb(185, 178, 178);
+  margin-top: 100px;
+  
+  color: #111010 !important;
+}
+
+.card-icon {
+  background-color:rgb(208, 201, 201);
+}
+
+
+
+/* ما يخص الcharts */
+
+.containerd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 100; */
+  /* margin-top: 170px; */
+ /* padding-bottom: 200px; */
+ /* background: rgb(255, 255, 255, 0.92); */
+ height: 200;
+}
+
+.chart {
+  padding: 2rem;
+  border: 2px solid  rgb(132, 61, 141);;
+  border-radius: 1rem;
+  box-shadow: 0 0 16px rgb(0, 0, 0, 0.8);
+  margin-top: 20px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #251c35;
+  
+
+}
+
+.chartHeading{
+font-family: 'Montserrat Alternates';
+font-weight: 900;
+width: 500px;
+float: right;
+color: #ebebeb;
+
+}
+.chartText{
+  float: left;
+  color: #ebebeb;
+font-family: 'Montserrat Alternates';
+font-weight: 900;
+width: 400px;
+}
+
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+
+
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  margin-right: 20px;
+  width: 50%;
+  
+ 
+
+}
+
+.chart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chartHeading {
+  margin-bottom: 50px; /* مسافة صغيرة بين العنوان والفقرة */
+
+
+}
+
+.chartText {
+  margin-bottom: 20px; /* مسافة صغيرة بين الفقرة والمخطط */
+
+}
+
+.curved-shape{
+
+  border-radius: 50px;
+  padding: 150px;
+  margin: 20px auto;
+  width: 100px;
+  height: 50px;
+  margin-right: 10%;
+
+}
+
+.final{
+
+border-radius: 50px;
+padding: 150px;
+margin: 20px auto;
+width: 100px;
+height: 50px;
+margin-right: 10%;
+
+}
+
+
 
 

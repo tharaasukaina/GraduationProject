@@ -14,8 +14,9 @@ const About = () => {
                         </div>
                         <div className="col-md-8">
                             <div className="card-body">
-                                <h5 className="card-title a">About Us</h5>
-                                <p className="card-text mt-5">With a vision to transform how we see space management & parking,
+                            <h2 className='cardTitle'>About Us</h2>
+                            
+                                <p className="card-textt mt-5">With a vision to transform how we see space management & parking,
                                     LoPark envisions to Bring Innovative Parking Solution, tailored to suit Kadoorie University
                                     Our parking systems are custom made with advanced effortless mechanisms to cater all types of vehicles, heavy or light.</p>
                             </div>

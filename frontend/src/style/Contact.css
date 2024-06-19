@@ -155,3 +155,22 @@
 }
 
 
+.sub {
+  /* background: rgb(249, 203, 250); */
+  padding-top: 5px;
+  transition: 0.5s linear;
+  margin-left: 10px;
+  font-family: 'Montserrat Alternates';
+}
+
+.submission button {
+  font-family: 'Montserrat Alternates';
+  font-weight: 900;
+  background-color: rgb(132, 61, 141);
+  color: white;
+}
+
+.sub:hover {
+  border: 1px solid rgb(255, 251, 251);
+  color: rgb(132, 61, 141);
+}
